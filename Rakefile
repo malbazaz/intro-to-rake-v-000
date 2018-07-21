@@ -3,7 +3,7 @@ task :hello do
   puts "hello from Rake!"
 end
 
-namespace db :greeting do
+namespace :greeting do
 
   desc 'prints out hello from rake'
   task :hello do
@@ -11,4 +11,4 @@ namespace db :greeting do
   end
 
 
-end 
+end
