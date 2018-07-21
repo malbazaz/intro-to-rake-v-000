@@ -28,4 +28,8 @@ namespace :db do
     require_relative 'config/environment'
   end
 
+  task :seed do
+    require_relative 'db/seeds'
+  end
+
 end
