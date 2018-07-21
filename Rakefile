@@ -21,7 +21,7 @@ namespace :db do
 
   desc 'migrate changes to the database'
   task :migrate => :environment do
-    student.create_table
+    Student.create_table
   end
 
   task :environment do
